@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  razortest:
+    image: razortest
+    build:
+      context: .
+      dockerfile: Dockerfile
